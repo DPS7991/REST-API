@@ -39,4 +39,4 @@ The `update_post14_title` function updates the title of post # 14.
 
 #### Find 2 ways to request the “TODO”s for user 5 and print the number of TODOs in the responses.
 
-The `determine_number_of_TODOs1` and `determine_number_of_TODOs2` functions shows the 2 ways to request the "TODOs" for user 5 and print the number of TODOs.
+The `determine_number_of_TODOs1` and `determine_number_of_TODOs2` functions show the 2 ways to request the "TODOs" for user 5 and print the number of TODOs.
