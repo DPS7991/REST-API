@@ -2,6 +2,8 @@ import requests
 
 from pprint import pprint
 
+import sys
+
 def get_all_titles():
 	res = requests.get("https://jsonplaceholder.typicode.com/posts")
 	posts = res.json()
@@ -71,3 +73,11 @@ def determine_number_of_TODOs2():
 	print(f'The number of TODOs is {number_of_TODOs}')
 
 # determine_number_of_TODOs2()
+
+resource = str(sys.argv[1])
+
+def access_common_apiresource(resource):
+	res = requests.get("https://jsonplaceholder.typicode.com/" + resource)
+	pprint(res.json())
+
+# access_common_apiresource(resource)

@@ -10,7 +10,6 @@ By [Daniel Peter-Salawu](mailto:danielpetersalawu@gmail.com)
 4. There is a function for each of the required operations. To see the output of the required operations, uncomment the function for each operation.
 5. In the terminal, run `python typicode.py`
 
-
 ## Discussion
 
 I used Python and the requests module.
@@ -40,3 +39,9 @@ The `update_post14_title` function updates the title of post # 14.
 #### Find 2 ways to request the “TODO”s for user 5 and print the number of TODOs in the responses.
 
 The `determine_number_of_TODOs1` and `determine_number_of_TODOs2` functions show the 2 ways to request the "TODOs" for user 5 and print the number of TODOs.
+
+## Bonuses!
+
+#### Allow the user to provide some sort of input to customize the queries to the API
+
+I used the sys module to accept any of the 6 common resources (posts, comments, albums, photos, todos, and users) in the API as a command line parameter. The resource inputted is then added as a string to the requests URL. The `access_common_apiresource` function is then used to print the contents of the inputted resource.
