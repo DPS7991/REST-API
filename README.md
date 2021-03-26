@@ -7,41 +7,40 @@ By [Daniel Peter-Salawu](mailto:danielpetersalawu@gmail.com)
 1. Navigate to [repo](https://github.com/DPS7991/REST-API)
 2. Clone locally using `git clone https://github.com/DPS7991/REST-API.git`
 3. Install the requests module using `pip install requests`
-4. There is a function for each of the required operations. To see the output of the required operations, uncomment the function for each operation.
-5. In the terminal, run `python typicode.py`
+4. To get the outputs of all the required operations, run `python typicode.py`, type `yes` and press `enter`.
 
 ## Discussion
 
 I used Python and the requests module.
+The parameters for the required operations are: `list_all_titles`, `uid_5_email`, `id_of_createdpost`, `titles_of_uid_5_posts`, `update_post14_title`, `number_of_uid5_todos1` and `number_of_uid5_todos2`.
 
 ## Requirements
 
 #### List all the titles of all posts.
 
-The `get_all_titles` function lists the titles of all posts.
+In the terminal, run `python typicode.py list_all_titles`
 
 #### Print the email of the user with id # 5.
 
-The `user_id5_email` function prints the email of the user with id # 5.
+In the terminal, run `python typicode.py uid_5_email`
 
 #### Create a new post and print the id of the created post.
 
-The `created_postid` function creates a new post and prints the id of the created post.
+In the terminal, run `python typicode.py id_of_createdpost`
 
 #### List the titles of all the posts created by user 5.
 
-The `get_titles_of_userId5` function lists the titles of all the posts created by user 5.
+In the terminal, run `python typicode.py titles_of_uid_5_posts`
 
 #### Update post # 14 with a new title “I passed the test!”. Print the response of that request.
 
-The `update_post14_title` function updates the title of post # 14.
+In the terminal, run `python typicode.py update_post14_title`
 
 #### Find 2 ways to request the “TODO”s for user 5 and print the number of TODOs in the responses.
 
-The `determine_number_of_TODOs1` and `determine_number_of_TODOs2` functions show the 2 ways to request the "TODOs" for user 5 and print the number of TODOs.
+For the first way, in the terminal run `python typicode.py number_of_uid5_todos1`
+For the first way, in the terminal run `python typicode.py number_of_uid5_todos2`
 
 ## Bonuses!
 
 #### Allow the user to provide some sort of input to customize the queries to the API
-
-I used the sys module to accept any of the 6 common resources (posts, comments, albums, photos, todos, and users) in the API as a command line parameter. The resource inputted is then added as a string to the requests URL. The `access_common_apiresource` function is then used to print the contents of the inputted resource.
