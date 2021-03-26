@@ -38,8 +38,8 @@ In the terminal, run `python typicode.py update_post14_title`
 
 #### Find 2 ways to request the “TODO”s for user 5 and print the number of TODOs in the responses.
 
-For the first way, in the terminal run `python typicode.py number_of_uid5_todos1`
-For the second way, in the terminal run `python typicode.py number_of_uid5_todos2`
+For the first way, in the terminal run `python typicode.py number_of_uid5_todos1`.
+For the second way, in the terminal run `python typicode.py number_of_uid5_todos2`.
 
 ## Bonuses!
 
